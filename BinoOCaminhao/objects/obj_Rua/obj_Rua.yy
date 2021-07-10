@@ -25,9 +25,7 @@
     {"x":64.0,"y":64.0,},
     {"x":0.0,"y":64.0,},
   ],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Rua","path":"objects/obj_Rua/obj_Rua.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

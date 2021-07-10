@@ -4,12 +4,17 @@
 /// @DnDArgument : "expr" "place_meeting(x,y,obj_Cerca)"
 if(place_meeting(x,y,obj_Cerca))
 {
-
+	/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+	/// @DnDVersion : 1
+	/// @DnDHash : 41600F9B
+	/// @DnDParent : 172D441D
+	image_angle = 0;
 }
 
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
-/// @DnDHash : 2FA38B4D
-/// @DnDArgument : "expr" "50"
-/// @DnDArgument : "var" "obj_player.y"
-obj_player.y = 50;
+/// @DnDHash : 69B29BAB
+else
+{
+
+}

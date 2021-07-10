@@ -5,6 +5,12 @@
 /// @DnDArgument : "instvar" "1"
 subino = y;
 
+/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+/// @DnDVersion : 1
+/// @DnDHash : 6593CF62
+/// @DnDArgument : "angle" "-5"
+image_angle = -5;
+
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 7CE6E3CA
