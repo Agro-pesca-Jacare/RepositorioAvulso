@@ -1,10 +1,3 @@
-/// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1
-/// @DnDHash : 616DD364
-/// @DnDArgument : "soundid" "tiro_inimigos"
-/// @DnDSaveInfo : "soundid" "tiro_inimigos"
-audio_play_sound(tiro_inimigos, 0, 0);
-
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 0D13EA83

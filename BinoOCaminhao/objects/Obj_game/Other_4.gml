@@ -46,6 +46,14 @@ if(room == rm_game)
 	/// @DnDArgument : "steps" "60*60"
 	/// @DnDArgument : "alarm" "2"
 	alarm_set(2, 60*60);
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 5F67D48D
+	/// @DnDParent : 54D1FDF0
+	/// @DnDArgument : "steps" "60*40"
+	/// @DnDArgument : "alarm" "11"
+	alarm_set(11, 60*40);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
