@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_inimigo2",
+    "path": "sprites/Spr_inimigo2/Spr_inimigo2.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
