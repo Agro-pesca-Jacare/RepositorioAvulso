@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_caminhao_estatico",
-    "path": "sprites/Spr_caminhao_estatico/Spr_caminhao_estatico.yy",
+    "name": "Spr_caminhao",
+    "path": "sprites/Spr_caminhao/Spr_caminhao.yy",
   },
   "solid": false,
   "visible": true,
