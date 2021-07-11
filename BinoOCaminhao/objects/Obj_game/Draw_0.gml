@@ -15,11 +15,11 @@ switch(l5104CD92_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 59534176
 		/// @DnDParent : 04814386
-		/// @DnDArgument : "x" "20"
-		/// @DnDArgument : "y" "20"
+		/// @DnDArgument : "x" "100"
+		/// @DnDArgument : "y" "100"
 		/// @DnDArgument : "caption" ""Entregas feitas: ""
 		if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-		draw_text(20, 20, string("Entregas feitas: ") + string(__dnd_score));
+		draw_text(100, 100, string("Entregas feitas: ") + string(__dnd_score));
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Instance_Lives
 		/// @DnDVersion : 1
@@ -36,5 +36,14 @@ switch(l5104CD92_0)
 			draw_sprite(Spr_vida, 0, x + 0 + l61FED6E8_1, y + 0);
 			l61FED6E8_1 += l61FED6E8_0;
 		}
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 5682AE3C
+	/// @DnDParent : 5104CD92
+	/// @DnDArgument : "const" "rm_menu"
+	case rm_menu:
+	
 		break;
 }
