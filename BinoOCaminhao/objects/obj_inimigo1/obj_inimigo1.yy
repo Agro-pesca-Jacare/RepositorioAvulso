@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_Biscicreta",
+    "path": "sprites/Spr_Biscicreta/Spr_Biscicreta.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
