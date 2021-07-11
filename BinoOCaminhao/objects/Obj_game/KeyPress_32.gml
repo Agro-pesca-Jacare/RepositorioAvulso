@@ -15,9 +15,9 @@ switch(l3CCDAD37_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 3D7CB23B
 		/// @DnDParent : 61F250A2
-		/// @DnDArgument : "room" "rm_game"
-		/// @DnDSaveInfo : "room" "rm_game"
-		room_goto(rm_game);
+		/// @DnDArgument : "room" "rm_controles"
+		/// @DnDSaveInfo : "room" "rm_controles"
+		room_goto(rm_controles);
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -43,6 +43,21 @@ switch(l3CCDAD37_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 5E03DE53
 		/// @DnDParent : 7071035C
+		/// @DnDArgument : "room" "rm_game"
+		/// @DnDSaveInfo : "room" "rm_game"
+		room_goto(rm_game);
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 563C1991
+	/// @DnDParent : 3CCDAD37
+	/// @DnDArgument : "const" " rm_controles"
+	case  rm_controles:
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 0F7B2987
+		/// @DnDParent : 563C1991
 		/// @DnDArgument : "room" "rm_game"
 		/// @DnDSaveInfo : "room" "rm_game"
 		room_goto(rm_game);
