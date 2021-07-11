@@ -37,6 +37,7 @@ else
 	/// @DnDHash : 7AA38540
 	/// @DnDParent : 14D5083F
 	/// @DnDArgument : "lives" "-1"
-	
-	__dnd_lives = real(-1);
+	/// @DnDArgument : "lives_relative" "1"
+	if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
+	__dnd_lives += real(-1);
 }

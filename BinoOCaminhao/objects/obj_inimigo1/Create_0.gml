@@ -19,3 +19,10 @@ audio_play_sound(Som_bici, 0, 1);
 /// @DnDArgument : "expr" "-10"
 /// @DnDArgument : "var" "speed"
 speed = -10;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 4C78DD90
+/// @DnDArgument : "steps" "60"
+/// @DnDArgument : "alarm" "1"
+alarm_set(1, 60);

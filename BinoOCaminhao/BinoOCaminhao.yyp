@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Spr_Bicicleta","path":"sprites/Spr_Bicicleta/Spr_Bicicleta.yy",},"order":9,},
+    {"id":{"name":"caminhao_levando_hit","path":"sounds/caminhao_levando_hit/caminhao_levando_hit.yy",},"order":13,},
     {"id":{"name":"caminhao_andando","path":"sounds/caminhao_andando/caminhao_andando.yy",},"order":8,},
     {"id":{"name":"Spr_caminhao_estatico","path":"sprites/Spr_caminhao_estatico/Spr_caminhao_estatico.yy",},"order":1,},
     {"id":{"name":"inimigo_levando_hit","path":"sounds/inimigo_levando_hit/inimigo_levando_hit.yy",},"order":7,},
@@ -34,7 +35,6 @@
     {"id":{"name":"Som_bici","path":"sounds/Som_bici/Som_bici.yy",},"order":12,},
     {"id":{"name":"obj_teio","path":"objects/obj_teio/obj_teio.yy",},"order":11,},
     {"id":{"name":"rm_perdeu","path":"rooms/rm_perdeu/rm_perdeu.yy",},"order":2,},
-    {"id":{"name":"caminhao_levando_dano","path":"sounds/caminhao_levando_dano/caminhao_levando_dano.yy",},"order":1,},
     {"id":{"name":"musica_tela_game","path":"sounds/musica_tela_game/musica_tela_game.yy",},"order":9,},
     {"id":{"name":"Fnt_game","path":"fonts/Fnt_game/Fnt_game.yy",},"order":0,},
     {"id":{"name":"tiro_player","path":"sounds/tiro_player/tiro_player.yy",},"order":5,},

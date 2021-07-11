@@ -17,6 +17,6 @@ audio_play_sound(som_moto, 0, 1);
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 436A6B09
-/// @DnDArgument : "expr" "-10"
+/// @DnDArgument : "expr" "-20"
 /// @DnDArgument : "var" "speed"
-speed = -10;
+speed = -20;
